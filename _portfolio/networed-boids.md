@@ -2,7 +2,7 @@
 layout: post
 title: "Networked boids simulation"
 published: true 
-description: A research project to learn about the TCP/IP stack and networking for realtime applications such as games
+description: A research project to learn about the TCP/IP stack and networking for real-time applications such as games
 tags: ['networking']
 ---
 # Summary
@@ -12,4 +12,4 @@ A small real-time application demonstrating the knowledge of the networking stac
 {% include youtubePlayer.html id="LNfDdVuFYHs"  %}
 
 # Code
-The source code can be found on my [github](https://github.com/jonathansty/Networked-Boids). There is a README and scripts provided for running the project.
+The source code can be found on my [GitHub](https://github.com/jonathansty/Networked-Boids). There is a README and scripts provided for running the project.
