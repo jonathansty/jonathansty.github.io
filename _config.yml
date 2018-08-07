@@ -39,7 +39,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
+paginate: 5
+paginate_path: "/:num"
 collections:
   portfolio:
     output: true

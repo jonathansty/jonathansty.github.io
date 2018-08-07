@@ -6,6 +6,14 @@ permalink: /portfolio
 
 {% for item in site.portfolio %}
 	<h2> {{ item.title }} </h2>
-	<p> {{ item.description }} </p>
-	<h><a href="{{ item.url }}">Read more</a></p>
+	<p> 
+		{{ item.description | truncatewords: 40}}
+	</p>
+	<p>
+		{% if item.external_url %}
+			<a href="{{ item.external_url }}">Read more</a>
+		{% else %}
+			<a href="{{ item.url }}">Read more</a>
+		{% endif %}
+	</p>
 {% endfor %}
