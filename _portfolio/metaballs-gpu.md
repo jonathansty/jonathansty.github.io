@@ -2,7 +2,9 @@
 layout: post
 title: "Realtime metaballs"
 published: true 
-description: realtime metaballs implemented using D3D11
+description: "A implementation of rendering simple metaballs to the screen using a 3D framework provided by Howest (DAE). This in order 
+to demonstrate our knowledge of the graphics pipeline."
+thumbnail: /assets/metaballs/thumbnail.png
 ---
 
 {% include youtubePlayer.html id="7w5PWmYU8to" %}

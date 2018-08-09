@@ -1,20 +1,44 @@
 ---
 layout: page
-title: Portfolio
-permalink: /portfolio
-published: false
+title: Projects
+permalink: /projects
+published: true
 ---
 
 {% for item in site.portfolio %}
-	<h2> {{ item.title }} </h2>
-	<p> 
-		{{ item.description | truncatewords: 40}}
-	</p>
-	<p>
+	<h2 style="clear:left"> {{ item.title }} </h2>
+	<div>
+		{% if item.thumbnail %}
+
+			{% if item.external_url %}
+				<a href="{{ item.external_url }}">
+			{% else %}
+				<a href="{{ item.url }}">
+			{% endif %}
+
+					<img style="float:left;padding-right:10px;padding-bottom:10px" src="{{ item.thumbnail }}" width=100 height=100 />
+			</a>
+		{% endif %}
+
+		<p> 
+			{{ item.description | truncatewords: 40}}
+		</p>
+	</div>
+
+<!-- TAGS  -->
+	<!-- <ul style="display:block; list-style: none; clear:left;margin: 0,0;padding: 0,0">
+		{% for tag in item.tags %}	
+			<li style="font-size:10px;float:left;display: block;background-color: aquamarine; padding-right:5px">{{ tag }}</li>
+		{% endfor %}
+	</ul> -->
+
+<!-- READ MORE -->
+	<p style="clear:left">
 		{% if item.external_url %}
 			<a href="{{ item.external_url }}">Read more</a>
 		{% else %}
 			<a href="{{ item.url }}">Read more</a>
 		{% endif %}
 	</p>
+
 {% endfor %}

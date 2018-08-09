@@ -10,6 +10,7 @@ the menu and the general game flow (pausing, resuming, interface switching, ..)
  made the UI scalable across platforms, player controls (gyroscope, slider and keyboard controls),
   implemented the store and skin buying/switching system, sound managing system, etc."
 
-tags: ['dae']
+tags: ['dae','gamejam']
+thumbnail: "/assets/shape/thumbnail.png"
 external_url: "https://dae2016gp1team08.wordpress.com/"
 ---
