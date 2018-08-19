@@ -2,7 +2,7 @@
 layout: post
 title:  "Journey into rust #2: Compute Shaders" 
 categories: rust opengl graphics compute shader
-date:   2018-08-19 20:00:00 +0000
+date:   2018-08-19 20:30:00 +0000
 ---
 I realized after my first post of this series that it's not just a journey into rust but also OpenGL. 
 I've used other Graphics API's before but never actually got my hands dirty into OpenGL. Someone on the [rust user forums](https://users.rust-lang.org/) (they are awesome, go check it out!) suggested using compute shaders instead. At the time I had never used compute shaders for a project so I decided to take some time to refactor the program to use a compute shader. This post is a follow up on that remark and will explore the possibilities of using a rust together with OpenGL to run compute shaders.
@@ -13,13 +13,11 @@ Below is a small video of the end result with using compute shaders. There's col
 </video>
 
 ## What is a compute shader?
-Remember that graphics pipeline I briefly mentioned in the [previous post]({% post_url 2018-08-07-rust-conway-game-of-life %})? A **compute shader** is a shader **stage** of that pipeline. This stage can be used for computing any information you want really, it can do rendering but the main use for it would be to compute data for other tasks that later get used by the rendering.
+Remember that graphics pipeline I briefly mentioned in the [previous post]({% post_url 2018-08-07-rust-conway-game-of-life %})? A **compute shader** is a shader **stage** of that pipeline. This stage can be used for computing any information you want really, it can do rendering but the main use for it would be to compute data for other tasks that later get used by the rendering. It's separate from any of the other stages and needs to be explicitly run by using a gl function call.
 
 More information can be found at [compute shader](https://www.khronos.org/opengl/wiki/Compute_Shader).
 
 The reason a compute shader can be useful is that it's independent of any drawing commands. With the fragment shader approach we are limited to using a Image/Texture to sample and render to. A compute shader takes arbitrary inputs and can also have arbitrary outputs. 
-
-
 
 A basic compute shader would look like this: 
 {% highlight glsl %}
@@ -36,19 +34,19 @@ void main() {
 This is just an example and won't do anything meaningful except for writing out a black texture.
 
 Notice the second line ```layout(local_size_x = 1 ,local_size_y = 1) in;```. This is the part where I would explain the abstract "space" compute shaders run in but instead I'm going to be lazy and link to a  wiki article for you to read.
-
-[Compute Space](https://www.khronos.org/opengl/wiki/Compute_Shader#Compute_space)
+- [Compute Space](https://www.khronos.org/opengl/wiki/Compute_Shader#Compute_space)
 
 ## Sending/Receiving data from the Compute Shader
-#  Using textures
-There's multiple ways of getting data from and to a compute shader. GLSL uniforms still work as normal. We use a uniform called ```u_time``` and ```u_dt``` to update our cells. 
+Sending/Receiving data to and from a compute shader is quite similar as any other shader. You can still use uniforms to send data to the shader. The biggest difference is that compute shaders can write data to buffers and textures directly.
 
-The first thing I tried was to implement the same logic but in a compute shader. For this I had to change a couple of things. Instead of returning a color value the compute shaders has to directly ```write``` to a ```image2D```. The ```image2D``` can be defined as a uniform like this:
+#  Using textures
+The first thing I tried was to implement the same logic but in a compute shader. For this I had to change a couple of things. Instead of returning a color value the compute shaders has to directly **write** to a ```image2D```. The ```image2D``` can be defined as a uniform like this:
 
 {% highlight rust %}
 layout(rgba8, binding = 0) uniform image2D img_output;
 uniform sampler2D u_previous; // Previous state it's texture we can sample from
 {% endhighlight %}
+
 Remark the ```layout(rgba8, binding = 0)``` here. These are called **layout qualifiers** and affect where the storage of a certain variable comes from. More info about this can be found [here](https://www.khronos.org/opengl/wiki/Layout_Qualifier_(GLSL)). 
 All it boils down to for us is:
 - ```rgba8```: The [image format]([binding point](https://www.khronos.org/opengl/wiki/Layout_Qualifier_(GLSL)#Binding_points)). The format the resource will be converted into for read and write operations.
@@ -96,7 +94,7 @@ A Shader Storage buffer Object (SSBO) is just like a Uniform Buffer Object (UBO)
 Another great link to a wiki article: 
 - [Shader Storage Buffer Object](https://www.khronos.org/opengl/wiki/Shader_Storage_Buffer_Object). 
 
-This does a great job at explaining what a SSBO actually is. At the bottom of that page you can also find how to create a SSBO my code has abstracted this away and calls this a "StructuredBuffer". This is useful as I can just define a buffer and a structure that will be the "element" of that buffer. This will then be strongly typed in rust which I'm very fond of. This also makes it easier to calculate the actual size and update the buffer from the CPU to the GPU. 
+I have abstracted this away into something called a ```StructuredBuffer<T>```. ```T``` is the type of the structure we will be using.
 
 {% highlight rust %}
 #[derive(Default)]
@@ -109,9 +107,7 @@ pub struct StructuredBuffer<T>
 }
 {% endhighlight %}
 
-So when creating this I ran into a couple of oddities, I wanted a buffer that was strongly typed but when you don't use your **T** the rust compiler complains. To get around this it suggests using ```std::marker::PhantomData<T>``` which works but seems weird and annoying to me coming from C++.
-
-The good thing is that we can keep this struct relatively small, our ```StructuredBuffer``` does not store any data CPU side, instead the data we feed it will immediately get moved to GPU memory seeing as most of the time our compute shader will be accessing it. 
+When creating this I ran into a couple of oddities. I wanted a buffer that was strongly typed but when you don't use your **T** the rust compiler complains. To get around this it suggests using ```std::marker::PhantomData<T>``` which works but seems weird and annoying to me coming from C++. As this structured is not supposed to be access from the CPU I won't be keeping track of any CPU data. Once the data is submitted to the GPU we don't care anymore as all the calculating happens on the GPU.  
 
 In the game of life we want to fill our structured buffer with a predefined state. This is quite easy in OpenGL and works as following:
 {% highlight rust %}
@@ -137,7 +133,7 @@ pub fn from(data : Vec<T>) -> Self {
 {% endhighlight %}
 
 ## Assembling the blocks
-Now we've got our final building blocks we can put this all together into our actual program. First thing I changed was our shader programs, instead of having 2 programs that both had a vertex and fragment shader I've now got 1 program that only does compute shader things and 1 that takes in the output of this compute shader to then proceed and render pretty colors to the screen.
+Now that we've got our final building blocks we can put this all together into our actual program. First thing I changed was our shader programs, instead of having 2 programs that both had a vertex and fragment shader I've now got 1 program that only does compute shader things and 1 that takes in the output of this compute shader to then proceed and render pretty colours to the screen.
 
 # Setting up our CPU data
 Our cell data is described like this in rust. There's a similar definition in GLSL (see below) that matches the same elements.
@@ -261,19 +257,12 @@ void main() {
 }
 {% endhighlight %}
 
-I also had to adjust my actual fragment shader to render out using the new data. Although I won't be posting this here you can still check out it out on [github](https://github.com/jonathansty/Rust-Game-of-life)!
+I also had to adjust my actual fragment shader to render out using the new data. I won't be posting that code here but you can see this on the [github repo](https://github.com/jonathansty/Rust-Game-of-life)!
 
-# Videos
-<video width="400px" controls style="float:left">
-    <source src="/assets/rust_no_colors.mp4" type="video/mp4" >
-</video>
-<video width="400px" controls style="float:left">
-    <source src="/assets/rust_pretty_without_colors.mp4" type="video/mp4" >
-</video>
-<video width="400px" controls style="clear:left">
+The final result looks like this:
+<video width="660px" controls style="clear:left">
     <source src="/assets/rust_pretty_colors.mp4" type="video/mp4" >
 </video>
-<div style="clear:left"/>
 
 # References
 - [khronos wiki](https://www.khronos.org/opengl/wiki/)
