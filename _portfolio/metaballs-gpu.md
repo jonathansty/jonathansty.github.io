@@ -5,6 +5,7 @@ published: true
 description: "A implementation of rendering simple metaballs to the screen using a 3D framework provided by Howest (DAE). This in order 
 to demonstrate our knowledge of the graphics pipeline."
 thumbnail: /assets/metaballs/thumbnail.png
+date:   2017-04-06 22:30:01 +0000
 ---
 
 {% include youtubePlayer.html id="7w5PWmYU8to" %}

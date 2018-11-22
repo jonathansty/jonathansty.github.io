@@ -13,4 +13,5 @@ the menu and the general game flow (pausing, resuming, interface switching, ..)
 tags: ['dae','gamejam']
 thumbnail: "/assets/shape/thumbnail.png"
 external_url: "https://dae2016gp1team08.wordpress.com/"
+date:   2017-04-06 22:30:01 +0000
 ---
