@@ -1,0 +1,156 @@
+/*Importing custom fonts*/
+@font-face{
+	font-family: TitleThin;
+	src: url("fonts/Roboto-Bold.ttf");
+	-webkit-font-smoothing: antialiased;
+}
+@font-face{
+	font-family: TitleBold;
+	src: url("fonts/Roboto-Medium.ttf");
+	-webkit-font-smoothing: antialiased;
+}
+@font-face{
+	font-family: TitleRegular;
+	src: url("fonts/Roboto-Regular.ttf");
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Start defining html tags globally*/
+body
+{
+	font-family: TitleRegular;
+	font-size:10.5pt;
+	width:220mm;
+	overflow:show;
+}
+hr
+{
+	padding:0px;
+	margin:0px;
+	margin-bottom: 2mm;
+}
+h1
+{
+	font-size:2em;
+}
+h3
+{
+	padding-top:1mm;
+	padding-left:1mm;
+	margin-top:6mm;
+	margin-bottom: 0mm;
+}
+ul:not(.ignore)
+{
+	list-style: none;
+	padding-left:0px;
+	margin:0px;
+}
+/* Page specific */
+.header
+{
+	margin-right:0px;
+	padding-left:4mm;
+	padding: 0.5mm 6mm;
+	color:white;
+	font-weight: none;
+	font-family: TitleThin;
+	background-color:#e64946;
+	display:fixed;
+	font-family: TitleRegular;
+
+	height:32mm;
+}
+b{
+	color:#e64946;
+}
+a
+{
+	color:white;
+	text-decoration: none;
+
+}
+h3{
+	margin:2px 10px;
+}
+.header .name span
+{
+	font-size:6mm;
+	position:relative;	
+	top:-6mm;
+	left: 20mm;
+}
+.header .contact
+{
+	padding-top:15px;
+	position:absolute;
+	display:block;
+	top:0;
+	text-align:right;
+	width:200mm;
+}
+body .block
+{
+
+	display:block;
+	margin:1mm 1mm;
+	width: auto;
+}
+.datatable
+{
+	position: relative;
+	left:12mm;
+	width:calc(210mm - 12mm);
+}
+.datatable td
+{
+	vertical-align: top;
+	padding-top:5px;
+}
+.datatable td:nth-child(1)
+{
+	width:50mm;
+	padding-left:0px;
+	text-align: left;
+
+	vertical-align: top;
+}
+.datatable td:nth-child(2)
+{
+}
+.datatable td:nth-child(3)
+{
+	width:50mm;
+}
+
+.datatable ul
+{
+	margin-bottom:2mm;
+}
+.datatable .indent
+{
+	font-size:3.5mm;
+	padding-bottom:1mm;
+	position: relative;
+	left:5mm;
+}
+
+.gamejam-datatable td:nth-child(1)
+{
+	width:20mm;
+}
+@page{
+	size: A4;
+	margin:0;
+}
+@media print{
+	html, body {
+    width: 210mm;
+	height: 297mm;
+  	-webkit-print-color-adjust: exact;
+  }
+  footer{
+	  page-break-before: always;
+	  page-break-after: always;
+  }
+}
