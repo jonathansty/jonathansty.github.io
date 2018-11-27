@@ -32,7 +32,7 @@ __TT Games,__
 __Junior Render Tech Programmer__  
 
 Maintaining and implementing tools related to render technologies for an in-house engine. Improving 
-and stablising existing low-level engine systems. 
+and stabilising existing low-level engine systems. 
 \\
 \\
 `Feb 2017 to March 2018`
