@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My recommended crates for computer graphics"
+title: "Recommended rust crates for computer graphics"
 summary: A shortlist of useful crates that I personally like and enjoy using in rust!
 categories: rust graphics compute
 date:   2018-09-15 22:15:00 +0000
