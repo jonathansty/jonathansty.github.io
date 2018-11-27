@@ -6,6 +6,7 @@ description: A remake of Electronic super joy using a 2D framework and C++ with 
 thumbnail: "/assets/electronic-super-joy/thumbnail.png"
 tags: ["C++"]
 date:   2016-01-06 22:30:01 +0000
+priority: 1
 ---
 
 {% include youtubePlayer.html id="N0miuj8kLbk"  %}

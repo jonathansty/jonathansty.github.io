@@ -6,6 +6,7 @@ description: "A implementation of rendering simple metaballs to the screen using
 to demonstrate our knowledge of the graphics pipeline."
 thumbnail: /assets/metaballs/thumbnail.png
 date:   2017-04-06 22:30:01 +0000
+priority: 3
 ---
 
 {% include youtubePlayer.html id="7w5PWmYU8to" %}

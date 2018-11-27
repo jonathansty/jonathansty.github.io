@@ -5,7 +5,8 @@ permalink: /projects
 published: true
 ---
 
-{% for item in site.portfolio %}
+{% assign portfolio_items = (site.portfolio | sort: 'priority' | reverse) %}
+{% for item in portfolio_items %}
 	<h2 style="clear:left"> {{ item.title }} </h2>
 	<div>
 		{% if item.thumbnail %}
