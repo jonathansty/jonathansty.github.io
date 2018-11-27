@@ -23,6 +23,8 @@ Experience with:
    * Version control using perforce and git
    * experience using UE4 and unity
 
+Other interests are: Linux, Mechanical Keyboards (QMK firmware), music
+
 
 ## Experience
 `March 2018-Now`
