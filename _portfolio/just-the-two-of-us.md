@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Just the Two of Us"
-published: false 
+published: true 
 thumbnail: "/assets/just-the-two-of-us/thumbnail.png" 
 description: Just the two of us is a co-op time trial based gamejam game. The game was created during brains eden 2016 with awesome people from DAE.
 date:   2018-06-06 22:30:01 +0000
@@ -35,12 +35,9 @@ During the gamejam we have all contributed in multiple parts of the game. The ma
  	<li>Audio</li>
 </ul>
 <h2>Images</h2>
-<a href="http://jonathansteyfkens.com/wp-content/uploads/2017/12/lg_05.jpg"><img class="alignleft size-medium wp-image-113" src="http://jonathansteyfkens.com/wp-content/uploads/2017/12/lg_05-300x159.jpg" alt="" width="300" height="159" /></a>
+{% assign images = "lg_01, lg_02, lg_03, lg_04, lg_05" | split: ", " %}
+{% for image in images %}
+<a href="{{ image | prepend: 'assets/just-the-two-of-us/' | append: '.jpg' | relative_url }}" style="float:left" ><img class="alignleft size-medium wp-image-113" src="{{ image | prepend: 'assets/just-the-two-of-us/' | append: '.jpg' | relative_url }}" alt="" width="300" height="159" /></a>
+{% endfor %}
 
-<a href="http://jonathansteyfkens.com/wp-content/uploads/2017/12/lg_04.jpg"><img class="alignleft size-medium wp-image-112" src="http://jonathansteyfkens.com/wp-content/uploads/2017/12/lg_04-300x160.jpg" alt="" width="300" height="160" /></a>
-
-<a href="http://jonathansteyfkens.com/wp-content/uploads/2017/12/lg_03.jpg"><img class="alignleft size-medium wp-image-111" src="http://jonathansteyfkens.com/wp-content/uploads/2017/12/lg_03-300x159.jpg" alt="" width="300" height="159" /></a>
-
-<a href="http://jonathansteyfkens.com/wp-content/uploads/2017/12/lg_02.jpg"><img class="alignleft size-medium wp-image-110" src="http://jonathansteyfkens.com/wp-content/uploads/2017/12/lg_02-300x159.jpg" alt="" width="300" height="159" /></a>
-
-<a href="http://jonathansteyfkens.com/wp-content/uploads/2017/12/lg_01.jpg"><img class="alignleft size-medium wp-image-109" src="http://jonathansteyfkens.com/wp-content/uploads/2017/12/lg_01-300x159.jpg" alt="" width="300" height="159" /></a>
+<div style="clear:left"></div>

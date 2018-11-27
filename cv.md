@@ -81,3 +81,22 @@ Courses focused on the design of games but also technical aspects such as networ
 __Sint-Jozefsinstituut Bokrijk__
 
 General Math and Science focused course 
+
+## Gamejams
+`2016`
+__Just the Two of Us,__ 
+
+__BrainsEden, Cambridge UK__
+
+Game Jam at the Anglia Ruskin university. We ended up in the honorable mentions by unity. Watch a video [here](https://player.vimeo.com/video/172655280)
+
+`2016`
+
+__Dream Defense,__
+
+__Google cardboard VR jam__
+
+A gamejam to explore the limitations of google cardboard VR. Trapped inside a dream as a giant. You are tasked to defend the kings castle from vile creatures trying to invade your kingdom.
+
+This jam we focussed mainly on getting interesting controls using only 1 button and looking. I've implemented the moving between towers worked on popup selection screen, special powerups, tower upgrading mechanisms, displaying tower ranges and so on. 
+
