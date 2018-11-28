@@ -8,6 +8,9 @@ style: davewhipp
 # Jonathan Steyfkens
 C/C++ engine programmer, graphics programmer
 
+## Contact
+<jonathan.steyfkens@gmail.com>
+
 ## Biography
 I'm a belgian born games programmer that is interested in graphics, engines and low-level programming. I have been working in the games industry full time since 2017 first as a more generalist programmer responsible for core technologies and render technologies, later as a more focused developer in graphics.
 
