@@ -27,6 +27,8 @@ google_analytics: UA-47939526-3
 # Build settings
 markdown: kramdown
 auto_ids: true
+show_excerpts: true
+excerpt_separator: <!--more-->
 
 theme: minima
 plugins:

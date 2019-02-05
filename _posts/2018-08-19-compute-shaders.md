@@ -7,6 +7,8 @@ date:   2018-08-19 20:30:00 +0000
 I realized after my first post of this series that it's not just a journey into rust but also OpenGL. 
 I've used other Graphics API's before but never actually got my hands dirty into OpenGL. Someone on the [rust user forums](https://users.rust-lang.org/) (they are awesome, go check it out!) suggested using compute shaders instead. At the time I had never used compute shaders for a project so I decided to take some time to refactor the program to use a compute shader. This post is a follow up on that remark and will explore the possibilities of using a rust together with OpenGL to run compute shaders.
 
+<!--more-->
+
 Below is a small video of the end result with using compute shaders. There's colors and the cells have a lifetime!
 <video width="600px" controls>
     <source src="/assets/rust_pretty_colors.mp4" type="video/mp4" >

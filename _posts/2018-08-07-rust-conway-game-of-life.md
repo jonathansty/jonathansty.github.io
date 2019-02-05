@@ -5,9 +5,9 @@ categories: rust opengl graphics
 date:   2018-08-07 22:30:01 +0000
 ---
 
-Hello world,
+[Rust](https://www.rust-lang.org/en-US/) has been popping up on my twitter feed more and more. It's been promoted and presented as the ultra safe language, so naturally I decided to check it out. The upcoming series of posts "Journey into rust" will describe and document my experiences using rust, hopefully explaining certain concepts that rust does differently. This will all be written from a C++ programmers standpoint that was thought writing Object Oriented code. I encourage you the reader to think critically and correct where necessary.
 
-The language [rust](https://www.rust-lang.org/en-US/) has been popping up on my twitter feed and my personal life more and more. It's been promoted and presented as the ultra safe language, so naturally I decided to check it out. The upcoming series of posts "Journey into rust" will describe and document my experiences using rust, hopefully explaining certain concepts that rust does differently. This will all be written from a C++ programmers standpoint that was thought writing Object Oriented code. I encourage you the reader to think critically and correct where necessary.
+<!--more-->
 
 On to the actual first post! After reading ["the Rust Programming Language"](https://doc.rust-lang.org/book/) I wanted to get my hands dirty and actually write some code. I like graphical applications and using low level graphics API's so I decided to implement a cellular automation in rust. But just implementing cellular automation isn't very exciting, is it? What if we could do this on the GPU...And off I went on my journey to create [Conway's game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in rust.
 

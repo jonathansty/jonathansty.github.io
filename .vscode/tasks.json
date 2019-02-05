@@ -6,7 +6,7 @@
         {
             "label": "Start serving ( Drafts + Unpublished )",
             "type": "shell",
-            "command": "bundle exec jekyll serve --unpublished --drafts",
+            "command": "bundle exec jekyll serve --drafts",
             "presentation": {
                 "echo": true,
                 "reveal": "always",

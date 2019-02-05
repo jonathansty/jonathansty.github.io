@@ -5,8 +5,8 @@ summary: A shortlist of useful crates that I personally like and enjoy using in 
 categories: rust graphics compute
 date:   2018-09-15 22:15:00 +0000
 ---
-It's been a while since my last post! Lately I've been quite demotivated to actually produce something worth while for doing a writeup about. Instead I offer you some thoughts on my recent findings using rust and some crates 
-I found particularly useful for computer graphics.
+Rust has a relatively young eco system. In my journey of learning rust I found it relatively hard to find an overview of graphics crates that are available. In this post I will outline my findings and what crates I prefer.
+<!--more-->
 
 In this post I will be discussing some crates for graphics and I will very briefly give an overview of the maths libraries that rust currently offers.
 

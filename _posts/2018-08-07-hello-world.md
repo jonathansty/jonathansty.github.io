@@ -5,7 +5,8 @@ date:   2018-08-07 20:00:00 +0000
 categories: hello welcome introduction
 published: true 
 ---
-Hello world,
+Hello world
+<!--more-->
 
 Enough with the cliché programming references and on to real business. Welcome to my first blog post! I'm Jonathan, a open-minded technology lover and programmer. 
 This blog will serve as a dumping ground for mostly my thoughts, experiments and sample projects I make in my free time. 
