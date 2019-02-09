@@ -1,18 +1,10 @@
+---
+---
+
 @import "minima";
 
-.project-list {
-
-}
-.project-link{
-
-}
-
-.project-title {
-
-}
-
-.project-description {
-
+body{
+    font-family: "Droid Sans", sans-serif !important;
 }
 
 .project-thumbnail {
@@ -20,8 +12,4 @@
     width:auto;
     height:auto;
     object-fit: cover;
-}
-
-.project-meta{
-
 }
