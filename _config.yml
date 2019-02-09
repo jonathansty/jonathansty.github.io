@@ -54,4 +54,5 @@ collections:
     permalink: /:collection/:name
 
 header_pages:
+    - posts.html
     - portfolio.html
