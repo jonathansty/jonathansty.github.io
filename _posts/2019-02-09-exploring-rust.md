@@ -8,7 +8,7 @@ Rust provides a lot of language constructs to enable and empower the user to wri
 But what happens behind these constructs? In this post I will outline ways of exploring rust and it's compiler.
 <!--more-->
 
-Last weekend I went to [fosdem 2019](fosdem.org).
+Last weekend I went to [fosdem 2019][fosdem].
 This is where I had the chance to attend a talk given by [Matthias Endler][mre]. 
 In his talk he explained how rust has got a lot of syntactic sugar to help the programmers in writing safe and correct code, part of his talk was explaining `cargo-inspect` to analyse this syntax and see what's happening behind the scenes. This inspired me to dig a bit deeper and try out other tools. 
 
@@ -140,3 +140,4 @@ A thing I noticed was that `rustc` and output an intermediate [graphviz] represe
 [cargo-asm-git]: https://github.com/gnzlbg/cargo-asm
 [graphviz]: https://www.graphviz.org/
 [AST]: https://en.wikipedia.org/wiki/Abstract_syntax_tree 
+[fosdem]: https://fosdem.org/2019/
