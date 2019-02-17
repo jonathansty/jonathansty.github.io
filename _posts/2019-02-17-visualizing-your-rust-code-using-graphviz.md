@@ -3,6 +3,7 @@ layout: post
 title: Visualizing your rust code using graphviz
 categories: [blog, rust]
 tags: [rust, internal, cargo, flowgraph]
+permalink: /posts/visualizing-rust.html
 ---
 In a previous post I mentioned that the rust compiler allows you to output interesting intermediate languages/formats in a number of different ways.  
 `hir`, `mir` and even flowgraphs! 
