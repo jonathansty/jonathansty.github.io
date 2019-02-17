@@ -2,7 +2,8 @@
 layout: post
 title: "Recommended rust crates for computer graphics"
 summary: A shortlist of useful crates that I personally like and enjoy using in rust!
-categories: rust graphics compute
+categories: [blog,rust]
+tags: [graphics]
 date:   2018-09-15 22:15:00 +0000
 ---
 Rust has a relatively young eco system. In my journey of learning rust I found it relatively hard to find an overview of graphics crates that are available. In this post I will outline my findings and what crates I prefer.

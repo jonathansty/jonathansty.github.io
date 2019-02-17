@@ -2,7 +2,8 @@
 layout: post
 title:  "Foo...Bar?"
 date:   2018-08-07 20:00:00 +0000
-categories: hello welcome introduction
+categories: [blog]
+tags: [introduction]
 published: true 
 ---
 Hello world

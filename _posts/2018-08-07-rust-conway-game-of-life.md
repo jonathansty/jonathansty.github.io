@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Journey into rust #1: Conway's Game" 
-categories: rust opengl graphics
+categories: [blog,rust]
+tags: [opengl, graphics]
 date:   2018-08-07 22:30:01 +0000
 ---
 

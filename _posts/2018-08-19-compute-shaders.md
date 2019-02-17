@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Journey into rust #2: Compute Shaders" 
-categories: rust opengl graphics compute shader
+categories: [blog,rust]
+tags: [graphics, compute, shader]
 date:   2018-08-19 20:30:00 +0000
 ---
 I realized after my first post of this series that it's not just a journey into rust but also OpenGL. 
