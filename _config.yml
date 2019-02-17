@@ -16,7 +16,6 @@
 title: Jonathan Steyfkens
 email: jonathan.steyfkens@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Portfolio
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jonathansty

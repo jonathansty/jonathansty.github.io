@@ -3,6 +3,7 @@ layout: post
 title: Exploring rust
 categories: [blog, rust]
 tags: [rust, internal, asm, cargo, mir, hir]
+permalink: /posts/explore-rust.html
 ---
 Rust provides a lot of language constructs to enable and empower the user to write memory safe and correct code. 
 But what happens behind these constructs? In this post I will outline ways of exploring rust and it's compiler.
