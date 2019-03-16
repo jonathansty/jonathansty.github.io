@@ -9,45 +9,56 @@ style: davewhipp
 C/C++ engine programmer, graphics programmer
 
 ## Contact
-<jonathan.steyfkens@gmail.com>
+email: <jonathan.steyfkens@gmail.com> \\
+twitter: [@Jonathansty](https://twitter.com/Jonathansty)
 
 ## Biography
-I'm a belgian born games programmer that is interested in graphics, engines and low-level programming. I have been working in the games industry full time since 2017 first as a more generalist programmer responsible for core technologies and render technologies, later as a more focused developer in graphics.
+Games programmer based in the UK. Full time employed at TT Games since 2018, before that developing games with UE4 for Electric Square. 
+Always looking for new challenges to take on, I'm a big open source fan and try to contribute as much as I can to small open source projects. Owner
+of several funny looking keyboards.
 
 ## Currently
-Assembling with legos at Travellers Tales as a junior render tech programmer.
+Render tech programmer at TT Games Studios.
 
-## Skills:
-Experience with:
-   * low-level programming in C++
-   * game programming in C#
-   * scripting using Python, Javascript and Lua
-   * knowledge of different C build systems/solution generators 
-   * Version control using perforce and git
-   * experience using UE4 and unity
+## Skills
+* C/C++ programming (mostly graphics/engine focused)
+* UE4 (Engine and Game code)
+* C# (unity and WPF) 
+* Build Engineering: cmake, UE4 build graphs, managing teamcity
+* Experience with VCS: Perforce, Git, SVN
+* scripting using Python, Javascript and Lua and several other smaller scripting languages
+* Accurately planning and delivering features
+* Writing understandable technical documents to communicate requirements/explain features
 
-Other interests are: Linux, Mechanical Keyboards (QMK firmware), music
+\\
+Aside of professional skills I've also got some other hobbies that keep me busy after work such as: 
+   * Practicing music
+   * Building and programming keyboards
+   * Running
 
 
 ## Experience
 `March 2018-Now`
 __TT Games,__   
-__Junior Render Tech Programmer__  
+__Render Tech Programmer__  
+Working on the engine rendering team to improve artists workflow and implement new features. There is a heavy focused on the rendering aspect and a less heavy focus on the tools side as a render tech programmer, this in turn requires me to understand the inner workings of the engines rendering model.
+I also carry the responsibility of properly planning tasks and making sure features get delivered on time. 
 
-Maintaining and implementing tools related to render technologies for an in-house engine. Improving 
-and stabilising existing low-level engine systems. 
-\\
-\\
+Other focus points are:
+   * Ensuring stability on new features and already existing features
+   * Communicating changes to the teams
+   * Writing multithreaded code and memory safe code
+
 `Feb 2017 to March 2018`
-__Studio Gobo,__  
+__Studio Gobo Brighton,__  
 __Generalist Programmer (Core & Render tech)__  
 
-In Studio Gobo (later called Electric Square) I had the chance to explore a couple of different roles. 
-The first 6 months I was interning there as part of my education of [Digital Arts and Entertainment](http://www.digitalartsandentertainment.be/). 
+In Studio Gobo Brighton (later called Electric Square) I had the chance to explore a couple of different roles. 
+The first 6 months I was interning there as part of my education of [Digital Arts and Entertainment][DAE]. 
 Afterwards Studio Gobo offered me a full time position.
 
 Below is a rough overview of the things I usually worked on (all of this is in a custom fork of UE4):
-- Continious integration and automated testing
+- Continuous integration and automated testing
 - Performance Testing and planning
 - Improving already existing UE4 technologies to fit our use cases
 - Implementing game systems related to rendering
@@ -66,12 +77,11 @@ Common technologies used:
 * C#
 * HTML, CSS and javascript
 
-
 ## Education 
 `2014 - 2017`
 __Bachelor Digital Arts and Entertainment, Howest__  
 
-Program aimed to teach students about technical development for games. 
+Started out with a generalist focus and then specialized in game programming (c++, dx11, physx)
 
 `2016 - 2016` 
 __Erasmus at Abertay University, Scotland, Dundee__   
@@ -86,9 +96,9 @@ General Math and Science focused course
 ## Gamejams
 `2016`
 __Just the Two of Us,__  
-__BrainsEden, Cambridge UK__  
+__Brains Eden, Cambridge UK__  
 
-Game Jam at the Anglia Ruskin university. We ended up in the honorable mentions by unity. Watch a video [here](https://player.vimeo.com/video/172655280)
+Game Jam at the Anglia Ruskin university. We ended up in the honourable mentions by unity. Watch a video [here](https://player.vimeo.com/video/172655280)
 
 `2016`
 __Dream Defense,__  
@@ -98,3 +108,4 @@ A gamejam to explore the limitations of google cardboard VR. Trapped inside a dr
 
 This jam we focussed mainly on getting interesting controls using only 1 button and looking. I've implemented the moving between towers worked on popup selection screen, special powerups, tower upgrading mechanisms, displaying tower ranges and so on. 
 
+[DAE]: [http://www.digitalartsandentertainment.be/]
