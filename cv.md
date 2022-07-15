@@ -12,9 +12,11 @@ C/C++ engine programmer, graphics programmer
 email: <jonathan.steyfkens@gmail.com> \\
 <!-- twitter: [@Jonathansty](https://twitter.com/Jonathansty) -->
 
-## Biography
+## About Me
 I am a game programmer currently based in the UK. Started my games career in 2017. Before that I was a student at Howest following the digital arts & entertainment trajectory with a focus on game development. 
 Overtime I've ended up working mostly on graphics but enjoy working on general tooling, graphics and engine systems of video games.
+
+When I'm not programming and making video games I like to jam on my saxophone at the local jazz jams around the area.
 
 ## Current Role & Employer
 Rendering Engineer @ Playground Games
