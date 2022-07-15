@@ -10,35 +10,52 @@ C/C++ engine programmer, graphics programmer
 
 ## Contact
 email: <jonathan.steyfkens@gmail.com> \\
-twitter: [@Jonathansty](https://twitter.com/Jonathansty)
+<!-- twitter: [@Jonathansty](https://twitter.com/Jonathansty) -->
 
 ## Biography
-Games programmer based in the UK. Full time employed at TT Games since 2018, before that developing games with UE4 for Electric Square. 
-Always looking for new challenges to take on, I'm a big open source fan and try to contribute as much as I can to small open source projects. Owner
-of several funny looking keyboards.
+I am a game programmer currently based in the UK. Started my games career in 2017. Before that I was a student at Howest following the digital arts & entertainment trajectory with a focus on game development. 
+Overtime I've ended up working mostly on graphics but enjoy working on general tooling, graphics and engine systems of video games.
 
-## Currently
-Render tech programmer at TT Games Studios.
+## Current Role & Employer
+Rendering Engineer @ Playground Games
 
 ## Skills
-* C/C++ programming (mostly graphics/engine focused)
-* UE4 (Engine and Game code)
-* C# (unity and WPF) 
-* Build Engineering: cmake, UE4 build graphs, managing teamcity
-* Experience with VCS: Perforce, Git, SVN
-* scripting using Python, Javascript and Lua and several other smaller scripting languages
-* Accurately planning and delivering features
-* Writing understandable technical documents to communicate requirements/explain features
+Technical skills include:
+* Modern C++ (C++11 and onwards), C, C#, Rust
+* Working with custom in-house engines since 2018
+* Knowledge on how to debug and profile games (using RenderDoc, Pix, Nvidia Nsight)
+* Console development (xbox)
+* Version Control (Git, P4)
+* Scripting languages such as Python and Lua.
+* Node.js & Javascript for internal web tooling
+* Prototyping experience in Unreal and Unity
 
 \\
-Aside of professional skills I've also got some other hobbies that keep me busy after work such as: 
-   * Practicing music
-   * Building and programming keyboards
-   * Running
+Aside from practical tech skills during my career I've been responsible for:
+* Accurately planning and delivering features
+* Writing technical documents 
+* Presenting work to the wider team
+* Communicating, planning and taking ownership of larger areas of the tech stack.
+
 
 
 ## Experience
-`March 2018-Now`
+`March 2019-Present`
+__Playground Games,__   
+__Rendering Engineer__  
+
+*Fable*
+
+Responsible for delivering and implementing various new features for the fable project, general improvements to address outstanding tech debt and taking over/owning existing systems that come over from the horizon team. 
+I'm also responsible for effectively communicating and planning several engine layer rendering systems. 
+
+*Forza Horizon 5*
+
+For a brief amount of time I was put in the Horizon team. Close to shipping they needed some extra capacity to help profiling and fix bugs. Profiling was mainly targeted at the lower end platforms such as xbox one (durango).
+
+
+
+`March 2018-July 2019`
 __TT Games,__   
 __Render Tech Programmer__  
 Working on the engine rendering team to improve artists workflow and implement new features. There is a heavy focused on the rendering aspect and a less heavy focus on the tools side as a render tech programmer, this in turn requires me to understand the inner workings of the engines rendering model.
