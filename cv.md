@@ -16,14 +16,14 @@ email: <jonathan.steyfkens@gmail.com> \\
 I am a game programmer currently based in the UK. Started my games career in 2017. Before that I was a student at Howest following the digital arts & entertainment trajectory with a focus on game development. 
 Overtime I've ended up working mostly on graphics but enjoy working on general tooling, graphics and engine systems of video games.
 
-When I'm not programming and making video games I like to jam on my saxophone at the local jazz jams around the area.
+Other hobbies are playing music at local jam venues and being active.
 
 ## Current Role & Employer
 Rendering Engineer @ Playground Games
 
 ## Skills
 Technical skills include:
-* Modern C++ (C++11 and onwards), C, C#, Rust
+* Modern C++ (C++11 and onwards), C, C#
 * Working with custom in-house engines since 2018
 * Knowledge on how to debug and profile games (using RenderDoc, Pix, Nvidia Nsight)
 * Console development (xbox)
@@ -38,7 +38,6 @@ Aside from practical tech skills during my career I've been responsible for:
 * Writing technical documents 
 * Presenting work to the wider team
 * Communicating, planning and taking ownership of larger areas of the tech stack.
-
 
 
 ## Experience
@@ -60,13 +59,11 @@ For a brief amount of time I was put in the Horizon team. Close to shipping they
 `March 2018-July 2019`
 __TT Games,__   
 __Render Tech Programmer__  
-Working on the engine rendering team to improve artists workflow and implement new features. There is a heavy focused on the rendering aspect and a less heavy focus on the tools side as a render tech programmer, this in turn requires me to understand the inner workings of the engines rendering model.
-I also carry the responsibility of properly planning tasks and making sure features get delivered on time. 
+Working on the engine rendering team to improve artists workflow and implement new features. There is a heavy focused on the rendering aspect and a less heavy focus on the tools side as a render tech programmer, this in turn requires me to understand the inner workings of the engines rendering model. I also carry the responsibility of properly planning tasks and making sure features get delivered on time. The main rendering areas I worked on was the landscape rendering and authoring system, deferred decal rendering and blending and foliage placing tooling.
 
-Other focus points are:
+Aside from that other responsibilities were:
    * Ensuring stability on new features and already existing features
-   * Communicating changes to the teams
-   * Writing multithreaded code and memory safe code
+   * Communicating changes to the teams and applying feedback
 
 `Feb 2017 to March 2018`
 __Studio Gobo Brighton,__  
