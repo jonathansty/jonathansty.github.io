@@ -22,6 +22,9 @@ twitter_username: jonathansty
 github_username:  jonathansty
 linkedin_username: jonathansty
 google_analytics: UA-47939526-3
+mastodon:
+  - username: jonathansty
+    instance: mastodon.gamedev.place
 
 # Build settings
 markdown: kramdown
