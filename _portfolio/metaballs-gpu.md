@@ -34,4 +34,4 @@ This really thought me a lot what to do and
 what not to do in graphics programming (mostly what not to do).
 I’ve also written a paper highlighting my research.
 
-The paper can be found [here](http://jonathansteyfkens.com/releases/Papers/2DAE1_Steyfkens_Jonathan_GP2Exam_Paper.pdf)
+The paper can be found [here](http://jonathansty.github.io/releases/Papers/2DAE1_Steyfkens_Jonathan_GP2Exam_Paper.pdf)
