@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Recommended rust crates for computer graphics"
 summary: A shortlist of useful crates that I personally like and enjoy using in rust!
 categories: [blog,rust]

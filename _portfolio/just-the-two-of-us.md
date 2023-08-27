@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: single
 title: "Just the Two of Us"
 published: true 
 thumbnail: "/assets/just-the-two-of-us/thumbnail.png" 
-description: Just the two of us is a co-op time trial based gamejam game. The game was created during brains eden 2016 with awesome people from DAE.
-date:   2018-06-06 22:30:01 +0000
-priority: 3
+excerpt: co-op time trial based gamejam game developed @ Brains Eden 2016
+header:
+    teaser: /assets/just-the-two-of-us/just-the-two-of-us-th.png
+date: 2023-08-24
+group: gamejam
 ---
 
 <h1>Just the Two of Us - Brains Eden 2016</h1>

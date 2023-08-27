@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Visualizing your rust code using graphviz
 categories: [blog, rust]
 tags: [rust, internal, cargo, flowgraph]

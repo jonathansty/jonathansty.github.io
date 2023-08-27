@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Journey into rust #2: Compute Shaders" 
 categories: [blog,rust]
 tags: [graphics, compute, shader]

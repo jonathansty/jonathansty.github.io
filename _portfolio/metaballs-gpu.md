@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Realtime metaballs"
 published: true 
-description: "A implementation of rendering simple metaballs to the screen using a 3D framework provided by Howest (DAE). This in order 
-to demonstrate our knowledge of the graphics pipeline."
-thumbnail: /assets/metaballs/thumbnail.png
-date:   2017-04-06 22:30:01 +0000
-priority: 4
+excerpt: Marching cubes implementation to visualize 3D metaballs.
+header:
+    teaser: /assets/metaballs/metaballs-th.png
+date: 2023-08-27
+group: project
 ---
 
 {% include youtubePlayer.html id="7w5PWmYU8to" %}

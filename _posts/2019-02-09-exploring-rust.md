@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Exploring rust
 categories: [blog, rust]
 tags: [rust, internal, asm, cargo, mir, hir]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Foo...Bar?"
 date:   2018-08-07 20:00:00 +0000
 categories: [blog]

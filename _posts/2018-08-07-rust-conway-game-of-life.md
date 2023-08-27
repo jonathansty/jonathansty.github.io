@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Journey into rust #1: Conway's Game" 
 categories: [blog,rust]
 tags: [opengl, graphics]

@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: single
 title: "Relic Defender"
 published: true 
-thumbnail: "/assets/relic-defenders/thumbnail.jpg" 
-description: While studying each student got a base framework to extend and implement rendering features in, this was called the overlord engine. It was pretty bare bones and required us to implement common rendering features.
-
-date:   2018-06-06 22:30:01 +0000
-priority: 3
+excerpt: A DirectX 11 C++ project to explore the basics and beginnings of graphics and engine programming
+header:
+    teaser: /assets/relic-defenders/relic-defenders-th.jpg
+date: 2023-08-27
+group: project
 ---
 <!-- VIDEO -->
 {% include youtubePlayer.html id='4kTTrdDM96Y' %}

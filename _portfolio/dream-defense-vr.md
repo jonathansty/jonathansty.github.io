@@ -1,11 +1,13 @@
 ---
-layout: post
+layout: single
 title: "Dream Defense"
 published: true 
 thumbnail: "/assets/google-vr/thumbnail.jpg" 
-description: Dream defense is a gamejam game created during the Creaweek in DAE. The goal was to create a small google cardboard VR game using 1 button inputs.
-date:   2017-01-01 20:30:01 +0000
-priority: 0
+excerpt: Gamejam game developed during Creaweek @ DAE
+header:
+    teaser: /assets/google-vr/google-vr-th.jpg
+date: 2023-08-24
+group: gamejam
 ---
 
 {% assign image_path = 'assets/google-vr/Menu.png' | relative_url %}

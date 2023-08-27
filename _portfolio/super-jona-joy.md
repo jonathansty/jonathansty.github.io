@@ -1,12 +1,13 @@
 ---
-layout: post
+layout: single
 title: Electronic Super joy remake
 published: true 
-description: A remake of Electronic super joy using a 2D framework and C++ with the goal to learn about C++ and OOP.
-thumbnail: "/assets/electronic-super-joy/thumbnail.png"
+excerpt: A remake of Electronic super joy using a 2D framework and C++ with the goal to learn about C++ and OOP.
 tags: ["C++"]
-date:   2016-01-06 22:30:01 +0000
-priority: 1
+header:
+    teaser: "/assets/electronic-super-joy/electronic-super-joy-th.png"
+date: 2023-08-26
+group: project
 ---
 
 {% include youtubePlayer.html id="N0miuj8kLbk"  %}
