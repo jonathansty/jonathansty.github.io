@@ -17,7 +17,7 @@ gem "minimal-mistakes-jekyll"
 
 group :jekyll_plugins do
 gem "jekyll-data"
-gem "wdm"
+gem "wdm", platforms: [:mswin]
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
