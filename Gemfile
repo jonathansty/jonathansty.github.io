@@ -9,15 +9,15 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll"
-gem "github-pages", "~> 228", group: :jekyll_plugins
+gem "github-pages", "~> 231", group: :jekyll_plugins
 gem 'jekyll-include-cache'
 gem "webrick"
+gem "csv"
 
 gem "minimal-mistakes-jekyll"
 
 group :jekyll_plugins do
 gem "jekyll-data"
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -16,20 +16,26 @@ email: <jonathan.steyfkens@gmail.com> \\
 My name is Jonathan. I'm a game developer based in the UK. Since 2017 I've been active in the games industry mostly working on low-level programming and game engines. Mostly I've been working with custom engines and in the low-level rendering architecture but I also enjoy more high-level programming such as gameplay and tools.
 
 ## Current Role & Employer
-Rendering Engineer @ Digital Extremes
+Senior Programmer @ Tanglewood Games
 
-## Skills
+## Skills & Experience
 * Experience with Modern C++ (C++11 and onwards), C, C#
-* Experience with custom game engine tech
 * Experience with rendering architectures
+* Experience with custom game engine tech
+* UE4 & UE5 experience
 * Knowledge on how to debug and profile games (using RenderDoc, Pix, Nvidia Nsight)
 * Console development (xbox)
-* Unreal Engine 4
 * Version Control systems such as Git, Perforce
 * Node.js & Javascript
 
 ## Experience
-`October 2022 - Current`
+`October 2023 - Current`
+__Tanglewood Games,__  
+__Senior Programmer__  
+Working as a senior programmer for various clients with a focus on rendering. Responsibilities are profiling and optimizing games, implementing rendering features and supporting art.
+
+\\
+`October 2022 - October 2023`
 __Digital Extremes,__  
 __Senior Graphics Programmer__  
 Supporting the existing graphics team in developing and integrating new features and functionality on Warframe
