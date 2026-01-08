@@ -13,13 +13,13 @@ email: <jonathan.steyfkens@gmail.com> \\
 <!-- twitter: [@Jonathansty](https://twitter.com/Jonathansty) -->
 
 ## About Me
-My name is Jonathan. I'm a game developer based in the UK. Since 2017 I've been active in the games industry mostly working on low-level programming and game engines. Mostly I've been working with custom engines and in the low-level rendering architecture but I also enjoy more high-level programming such as gameplay and tools.
+My name is Jonathan. I'm a software developer based in the UK. I started working in the games industry in 2017. My career started off working as a core tech programmer, focussing on game systems and integrations, but then shifted towards more low-level programming using custom engines or third party engines. Companies I've worked at are Travellers Tales, Digital Extremes, Playground Games and Tanglewood Games. 
 
 ## Current Role & Employer
-Senior Programmer @ Tanglewood Games
+Senior Graphics Programmer @ Spliced Inc Ltd
 
 ## Skills & Experience
-* Experience with Modern C++ (C++11 and onwards), C, C#
+* Experience with C++ & C#
 * Experience with rendering architectures
 * Experience with custom game engine tech
 * UE4 & UE5 experience
@@ -29,7 +29,12 @@ Senior Programmer @ Tanglewood Games
 * Node.js & Javascript
 
 ## Experience
-`October 2023 - Current`
+`October 2023 - Present`
+__Spliced Inc,__  
+__Senior Graphics Programmer__
+
+\\
+`October 2023 - April 2024`
 __Tanglewood Games,__  
 __Senior Programmer__  
 Working as a senior programmer for various clients with a focus on rendering. Responsibilities are profiling and optimizing games, implementing rendering features and supporting art.
@@ -78,3 +83,4 @@ Courses focused on the design of games but also technical aspects such as networ
 `2008 - 2014`
 __Sint-Jozefsinstituut Bokrijk__  
 General Math and Science focused course 
+
