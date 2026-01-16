@@ -29,12 +29,12 @@ Senior Graphics Programmer @ Spliced Inc Ltd
 * Node.js & Javascript
 
 ## Experience
-`October 2023 - Present`
+`April 2025 - Present`
 __Spliced Inc,__  
 __Senior Graphics Programmer__
 
 \\
-`October 2023 - April 2024`
+`October 2023 - April 2025`
 __Tanglewood Games,__  
 __Senior Programmer__  
 Working as a senior programmer for various clients with a focus on rendering. Responsibilities are profiling and optimizing games, implementing rendering features and supporting art.
@@ -83,4 +83,5 @@ Courses focused on the design of games but also technical aspects such as networ
 `2008 - 2014`
 __Sint-Jozefsinstituut Bokrijk__  
 General Math and Science focused course 
+
 
