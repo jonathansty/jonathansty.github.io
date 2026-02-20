@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-GB"
 title                    : "Jonathan Steyfkens"
 title_separator          : "-"
-subtitle                 : Portfolio & ramblings about tech
+subtitle                 : Senior Graphics & Engine Programmer
 name                     : "Jonathan Steyfkens"
 description              : "Blog & Portfolio site of Jonathan Steyfkens"
 url                      : "https://jonathansteyfkens.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -108,7 +108,7 @@ author:
   avatar           : "/assets/profile.jpg"
   bio              : ""
   location         : "United Kingdom"
-  email            :
+  email            : jonathan.steyfkens@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

@@ -3,7 +3,7 @@ layout: cv
 title: Jonathan Steyfkens's CV
 permalink: /cv
 published: true
-style: davewhipp
+style: harvard-style-cv-theme/main
 ---
 # Jonathan Steyfkens
 C/C++ engine and game programmer

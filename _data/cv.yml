@@ -1,0 +1,94 @@
+email: "jonathan.steyfkens@gmail.com"
+website: "https://jonathansteyfkens.com"
+github: "jonathansty"
+linkedin: "jonathansty"
+sections:
+  - title: About 
+    entries:
+        - description: 
+            "
+            I am a passionate graphics & engine programmer with a strong background in C++. 
+            With over 6 years of experience in the gaming industry, I have contributed to the development of high-profile titles such as Forza Horizon 5, Fable, Warframe and LEGO star wars: the skywalker saga.
+            I thrive in collaborative environments, working closely with artists and designers to achive great results while maintaining optimal performance across various platforms.
+            "
+  - title: Experience
+    entries:
+      - title: "Senior Graphics Programmer - Spliced Inc"
+        location: "Remote (UK)"
+        dates: "Apr 2025 - Present"
+        bullets:
+        - Responsible for implementing new rendering features and pipelines unique to our project.
+        - Collaborated with art, lighting, and VFX teams to implement features and help with optimization.
+      - title: "Senior Programmer - Tanglewood Games"
+        location: "Remote (UK)"
+        dates: "Oct 2023 - Apr 2025"
+        bullets:
+        - Work with clients to deliver high-quality graphics and engine systems
+        - Implement & communicate technical solutions to meet the clients their technical needs. 
+        - Diagnose performance bottlenecks and optimize code on a variety of platforms
+      - title: "Senior Graphics Programmer - Digital Extremes"
+        location: "Remote (Contract)"
+        dates: "Oct 2022 - Sept 2023"
+        bullets:
+          - Developed and optimized graphics features for Warframe
+          - Collaborated with artists and designers to implement visual effects
+          - Integrated popular upscaling libraries such as NVIDIA DLSS, AMD FSR and XeSS
+      - title: "Rendering Engineer - Playground Games"
+        location: "Hybrid (UK/Remote)"
+        dates: "Jul 2019 - Oct 2022"
+        bullets:
+          - Contributed to the development of Forza Horizon 5's graphics engine
+          - Implemented and optimized rendering features for next-gen consoles
+          - Worked closely with artists to achieve high-quality visuals while maintaining performance
+      - title: "Junior Render Tech programmer - TT Games Ltd"
+        location: "Wilmslow"
+        dates: "Mar 2018 - Jul 2019"
+        bullets:
+          - Contributed to the development of rendering features for LEGO games
+          - Optimized graphics performance on multiple platforms
+          - Collaborated with artists and designers to implement visual effects
+      - title: "Programmer - Electric Square"
+        location: "Brighton"
+        dates: "Aug 2017 - Mar 2018"
+        bullets:
+          - Started as intern but was hired full-time afterwards
+          - Development across multiple areas using UE4, including core tech, ui and rendering.
+          - Collaborated with artists and designers to implement new features and systems
+  - title: Education
+    entries:
+      - title: "Abertay University"
+        sub: "Erasmus Exchange Program"
+        location: "Dundee, Scotland"
+        dates: "2016 - 2016"
+        description: "A semester-long exchange program focused on game development, providing an opportunity to study and collaborate with students from different backgrounds and cultures."
+        bullets:
+          - Network Systems for game development
+          - Developing game concepts & game engines
+
+      - title: "Hogeschool West-Vlaanderen"
+        sub: "Bachelor Digital Arts and Entertainment"
+        location: "Kortrijk, Belgium"
+        dates: "2014 -2017 "
+        description: "A 3-year program focused on game development, covering a wide range of topics including programming, art, design, and production."
+        bullets:
+          - General game development education with a focus on c++ programming
+          - Developed & participated in multiple game projects & jams
+          - Exposure and learning of art processes and pipelines 
+      
+  - title: Skills
+    entries:
+      - title: "Programming Languages & APIs"
+        bullets:
+          - "C++, C#, HLSL"
+          - "DirectX 11/12"
+      - title: "Engines"
+        bullets:
+          - "Unreal Engine and custom in-house engines"
+
+      - title: "Tools & Platforms"
+        bullets:
+          - "Renderdoc, PIX, nsight, Git, Perforce, Visual Studio"
+          - "Xbox, Mobile"
+      - title: "Languages"
+        bullets:
+          - "English (Fluent), Dutch (Native)"
